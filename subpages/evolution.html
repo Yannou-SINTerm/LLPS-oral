@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <title>L'évolution - Les langages de programmation</title>
+</head>
+<body>
+    <div class="index">
+        <div class="bg-white select-none">
+            <header class="absolute inset-x-1 top-0 z-50">
+              <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+                <div class="flex lg:flex-1">
+                  <a href="../index.html" class="-m-1.5 p-1.5">
+                    <img class="h-10 rounded-full w-auto" src="https://avatars.githubusercontent.com/u/76118368?v=4" alt="pdp">
+                  </a>
+                </div>
+                <div class="hidden lg:flex lg:gap-x-12">
+                  <a href="introduction.html" class="text-sm font-semibold leading-6 text-gray-900">Introduction</a>
+                  <a href="evolution.html" class="text-sm font-semibold leading-6 text-gray-900">L'évolution</a>
+                  <a href="modern_language.html" class="text-sm font-semibold leading-6 text-gray-900">Les langages modernes</a>
+                  <a href="goal_perspective.html" class="text-sm font-semibold leading-6 text-gray-900">Les défis et perspetives</a>
+                  <a href="conclusion.html" class="text-sm font-semibold leading-6 text-gray-900">Conclusion</a>
+                </div>
+              </nav>
+            </header>
+          
+            <div class="relative isolate px-6 pt-14 lg:px-8">
+              
+                <!--Container-->
+                <div class="container w-full md:max-w-3xl mx-auto pt-20">
+              
+                  <div class="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal" style="font-family:Georgia,serif;">
+              
+                    <!--Title-->
+                    <div class="font-sans lg:flex justify-between">
+                      <p class="text-base md:text-sm text-purple-500 font-bold"><a href="introduction.html" class="text-base md:text-sm text-purple-500 font-bold no-underline hover:underline">RETOUR A LA PAGE D'ACCUEIL &lt;</a></p>
+                      <p class="text-base md:text-sm text-purple-500 font-bold">&gt; <a href="modern_language.html" class="text-base md:text-sm text-purple-500 font-bold no-underline hover:underline"> ALLER A LA PAGE SUIVANTE</a></p>
+                    </div>
+                    <h1 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">L'évolution des langages à travers le temps</h1>
+              
+              
+                    <!--Post Content-->
+              
+              
+                    <!--Lead Para-->
+                    <p class="py-6 text-justify">Au début, les premiers ordinateurs étaient programmés en langage machine, une forme binaire compréhensible par les machines. Cependant, cela s'est révélé fastidieux et propice aux erreurs. </p>
+
+                    <p class="py-6 text-justify">Pour simplifier la programmation, des langages de plus haut niveau ont été développés, tels que Fortran, COBOL et LISP dans les années 1950 et 1960. Ces langages offraient une abstraction plus élevée, facilitant la tâche des développeurs.</p>
+                    
+                    <p class="py-6">Exemple de code FORTRAN :</p>
+                    <pre class="bg-gray-900 rounded text-white font-mono text-base p-2 md:p-4">
+                      <code class="break-words whitespace-pre-wrap">
+          program somme_entiers
+          implicit none
+          integer :: i
+          integer :: somme = 0
+                      
+          do i = 1, 100
+              somme = somme + i
+          end do
+                      
+          print *, "La somme des entiers de 1 à 100 est :", somme
+          end program somme_entiers
+                      </code>
+                    </pre>
+
+
+                    <br>
+                    <p class="py-6 text-justify">Au fil du temps, de nouveaux langages sont apparus pour résoudre des problèmes spécifiques. Par exemple, C a été créé pour développer le système d'exploitation Unix, tandis que Pascal était axé sur l'enseignement de la programmation structurée.</p>
+                    
+              
+              
+
+              
+              
+              
+
+              
+
+
+
+
+            <footer>
+                <div class="w-full max-w-screen-xl mx-auto p-4 md:py-9">
+                    <div class="sm:flex sm:items-center sm:justify-between">
+                        <a href="https://github.com/yannouuuu" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                          <img src="https://avatars.githubusercontent.com/u/76118368?v=4" class="h-8 rounded-full" alt="Yann Renard"/>
+                          <span class="self-center text-2xl text-lg font-sans font-semibold whitespace-nowrap dark:text-white">Yann Renard</span>
+                        </a>
+                        <p href="subpages/about.html" class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400 hover:underline me-4 md:me-6">Made with 💖 by Yannou</p>
+                    </div>  
+                    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+                    <span class="block text-sm text-gray-500 sm:text-center text-gray-400">© 2024 <a href="https://github.com/yannouuuu" class="hover:underline">Yann Renard | Projet Système d'information et numérique</a></span>
+                </div>
+            </footer>
+
+
+
+    <!--Blur haut gauche-->
+    <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+      <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
